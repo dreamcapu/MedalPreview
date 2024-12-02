@@ -4,8 +4,10 @@
   <title>Nametag Generator</title>
   <script src="lib/jquery-3.7.1.min.js"></script>
   <link rel="stylesheet" href="lib/bootstrap.min.css"></link>
+  <script src="exclude.js"></script>
   <script src="lib/bootstrap.bundle.min.js"></script>
   <script src="medal.js"></script>
+<!--  <script src="medal_source.js"></script>-->
   <style>
     * {
       font-family: Arial, serif;
@@ -31,7 +33,7 @@
 </head>
 <body>
 <div class="container bg-dark">
-  <h1 class="my-4 text-white">Medal Text Preview</h1>
+  <h1 class="my-4 text-white">Dream MS Medal Text Preview</h1>
   <h3 class="text-secondary mb-4 text-white">This is a very lazy tool created by Capu. Please forgive the webpage appearance.</h3>
   <form class="mb-4">
     <div class="row g-2">
@@ -50,16 +52,19 @@
       <li class="bg-dark-subtle list-group-item">Some medal previews will appear misaligned here. They will be fixed in game to look as
         they are intended.
       </li>
-      <li class="bg-dark-subtle list-group-item">For medals that do not display properly, you can request for a preview of the proper
+      <li class="bg-dark-subtle list-group-item">Ignore the "w", "c", "e" columns - these are just for my own reference.</li>
+      <!--<li class="bg-dark-subtle list-group-item">For medals that do not display properly, you can request for a preview of the proper
         appearance.
-      </li>
+      </li>-->
       <li class="bg-dark-subtle list-group-item"><span class="text-danger">Not all medal IDs are available</span> - some are already
         used for other custom medals or reserved for future content.
       </li>
-      <li class="bg-dark-subtle list-group-item">Once you've decided on your custom medal, please DM me (Capu) on Discord with a
+      <li class="bg-dark-subtle list-group-item h2 text-danger">Once you've decided on your custom medal, please
+        DM me
+        (Capu)
+        on Discord with a
         <strong>screenshot of the whole row</strong>.
       </li>
-      <li class="bg-dark-subtle list-group-item">Ignore the "w", "c", "e" columns - these are just for my own reference.</li>
       <li class="bg-dark-subtle list-group-item">I'll let you know if the medal you selected is available!</li>
     </ul>
   </div>
